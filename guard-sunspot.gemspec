@@ -18,10 +18,10 @@ Gem::Specification.new do |s|
   s.require_path = 'lib'
 
   s.add_dependency 'guard', '>= 2.0'
-  s.add_dependency('guard-compat', '~> 0.3')
+  s.add_dependency('guard-compat', '>= 0.3')
   s.add_dependency "sunspot_solr"
 
-  s.add_development_dependency 'rspec', '~> 3.0'
+  s.add_development_dependency 'rspec', '>= 3.0'
   s.add_development_dependency 'timecop'
   s.add_development_dependency 'simplecov'
   s.add_development_dependency 'poltergeist'
